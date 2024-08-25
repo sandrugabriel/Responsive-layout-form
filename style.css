@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0px;
+    background-color: #FAF6ED;
+}
+
+select {
+    display: block;
+    color: rgb(56, 56, 56);
+
+}
+
+p {
+    display: block;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+input {
+    display: block;
+    color: rgb(110, 110, 110);
+}
+
+.header-container {
+    background-color: #CD8263;
+
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+    height: 100px;
+}
+
+.header-info {
+    color: white;
+    font-size: 17px;
+    margin: 0px 50px;
+}
+
+.header-title {
+    color: white;
+    font-size: 24px;
+    margin: 0px 50px;
+}
+
+.main-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main-basic-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#required-info {
+    display: block;
+    /* border: red 2px solid; */
+    width: 62%;
+}
+
+.basic-info-items {
+    /* border: red 2px solid; */
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.basic-info-name {
+    /* border: blue 2px solid; */
+}
+
+.basic-textboxes {
+    width: 100%;
+    height: 35px;
+}
+
+.basic-info-item {
+    /* border: red 2px solid; */
+    width: 370px;
+
+}
+
+#tshirt-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+#t-shirt-title {
+    margin-bottom: 4px;
+    width: 93%;
+}
+
+#basic-info {
+    margin-right: 5px;
+}
+
+.t-shirt-info-items {
+    /* border: blue 2px solid; */
+    display: flex;
+    flex-direction: row;
+    width: 93%;
+
+    justify-self: flex-end;
+}
+
+.t-shirt-size {
+    display: block;
+    margin-right: 5px;
+    width: 35%;
+}
+
+.t-shirt-design {
+    width: 65%;
+}
+
+.t-shirt-color {
+    /* border: blue 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 93%;
+    margin-bottom: 55px;
+}
+
+#other-job-role {
+
+
+    margin-top: auto;
+}
+
+.items-activities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.activity-item {
+    background-color: #FEFDF9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: rgb(203, 203, 203) 0.2px solid;
+    margin-bottom: 15px;
+    width: 49.3%;
+}
+
+#conference-items {
+    width: 100%;
+}
+
+#activity-register {
+    /* border: red 2px solid; */
+    width: 62%;
+}
+
+#activity-items {
+    width: 62%;
+}
+
+.main-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-checkbox-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#main-checkbox-img {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#main-checkbox {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.img-activity {
+    margin: 16px 5px;
+    display: flex;
+    align-content: center;
+}
+
+.time-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: red 2px solid; */
+
+}
+
+.p-activity {
+    display: block;
+    text-align: end;
+    margin-right: 5px;
+}
+
+.p-price {
+    width: 45%;
+    text-align: end;
+    margin-right: 5px;
+}
+
+.p-time {
+    /* border: red 2px solid; */
+    margin-left: 20px;
+    width: 45%;
+}
+
+#total-price {
+    width: 100%;
+    text-align: end;
+
+}
+
+.payment-items {
+    width: 62%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+
+.method-info {
+    display: flex;
+    flex-direction: column;
+    width: 49.5%;
+}
+
+.textbox-size {
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+}
+
+.expiration-location{
+    width: 48.5%;
+}
+
+.expiration-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.expiration-item{
+    width: 47%;
+}
+
+.location-item {
+    width: 47%;
+}
+
+
+.payment-info {
+    background-color: #FEFDF9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: rgb(203, 203, 203) 0.2px solid;
+    margin-bottom: 15px;
+    width: 62%;
+}
+
+.info-bit {
+    display: block;
+    margin: 5px 20px;
+}
+
+#button-register {
+    width: 62%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 120px;
+}
+
+#btnRegister {
+    padding: 5px 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: #C54169;
+    border: 0px;
+    border-radius: 5px;
+
+}
